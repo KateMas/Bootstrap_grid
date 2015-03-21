@@ -3,7 +3,7 @@
 		color:#4D4D4D;
 		.col-md-1 {
 			width: 20px;
-			height: 1000px;
+			height: 1050px;
 			background-image: url(../../images/background2.png);
 			background-repeat:repeat-y;	
 		}
@@ -16,13 +16,14 @@
 					line-height: 35px;
 				}
 				p {
-					line-height: 20px;
+					line-height: 22px;
 				}
 			}	
 		}
 		.row {
 			margin-left: 10px;
-			padding-top: 20px;
+			margin-top: 40px;
+			padding: 10px 2px;
 			border:1px solid #FFBFBF;
 			.col-md-3 {
 			}
