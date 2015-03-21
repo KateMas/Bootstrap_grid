@@ -1,0 +1,33 @@
+header {
+	border-bottom: 1px solid #FFBFBF;
+	.col-md-1 {
+		line-height: 60px;
+		img {
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+	.col-md-4 {
+		nav {
+			ul {
+				font-size: 0;
+				line-height: 60px;
+				text-align:right;
+				li {
+					display: inline-block;
+					margin:0 5px;
+					font-size: 14px;
+					a {
+						text-decoration: none;
+						color: #D65B5B;
+						@include transition-property(all);
+						@include transition-duration(400ms);
+						&:hover {
+							color: #933434;
+						}
+					}	
+				}
+			}
+		}
+	}
+}

@@ -1,49 +1,58 @@
-.container {
-	.row {
-		color:#4D4D4D;
-		.col-md-1 {
-			width: 20px;
-			height: 1050px;
-			background-image: url(../../images/background2.png);
-			background-repeat:repeat-y;	
-		}
-		.col-md-8 {
-			.base-section {
-				margin-left:10px;
-				padding-top: 20px;
-				h3 {
-					font-style: italic;
-					line-height: 35px;
-				}
-				p {
-					line-height: 22px;
-				}
-			}	
-		}
-		.row {
-			margin-left: 10px;
-			margin-top: 40px;
-			padding: 10px 2px;
-			border:1px solid #FFBFBF;
-			.col-md-3 {
+main {
+	.header {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		background: #F38989;
+		// needs latest Compass, add '@import "compass"' to your scss
+		background-color: rgb(243,137,137); // Old browsers
+		@include filter-gradient(#f38989, #6d0019, vertical); // IE6-9
+		@include background-image(linear-gradient(top,  rgba(243,137,137,1) 0%,rgba(109,0,25,1) 100%));
+		.theme {
+			h2 {
+				font-size: 60px;
+				text-align:left;
+				color: #ffffff;
 			}
-		}
-		.col-md-3 {
-			nav {
-				padding-top:40px;
-				ul {
-					margin-left: 50px;
-					font-size: 14px;
-					li {
-						list-style-type: none;
-						line-height: 30px;
-					}
-					a {
-						text-decoration: none;
-						color:#AEAEAE;
-						&:hover {
-							color: #575757;
-						}
+			p {
+				font-size: 25px;
+				line-height: 35px;
+				color:#EE8888; 
+			}
+		}	
+	}
+	.col-md-9 {
+		.base-section {
+			padding-top: 20px;
+			h3 {
+				font-style: italic;
+				line-height: 35px;
+			}
+			p {
+				line-height: 22px;
+			}
+		}	
+	}
+	.table {
+		margin-top: 40px;
+		padding: 10px 2px;
+	}
+	.col-md-3 {
+		nav {
+			padding-top:40px;
+			ul {
+				margin-left: 50px;
+				font-size: 14px;
+				li {
+					list-style-type: none;
+					line-height: 30px;
+				}
+				a {
+					text-decoration: none;
+					color:#AEAEAE;
+					@include transition-property(all);
+					@include transition-duration(400ms);
+					&:hover {
+						color: #575757;
 					}
 				}
 			}

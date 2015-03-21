@@ -4,5 +4,9 @@
 @import "compass/utilities/general/clearfix";
 //@import "bootstrap";
 
+//widgets
+@import "widgets/header";
+@import "widgets/footer";
+
 //layouts
 @import "layouts/container";
