@@ -8764,7 +8764,7 @@ aside nav ul a:hover {
   color: #575757;
 }
 
-/* line 1, ../scss/layouts/_container.scss */
+/* line 1, ../scss/layouts/_main.scss */
 .under-header {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -8778,33 +8778,33 @@ aside nav ul a:hover {
   background-image: -o-linear-gradient(top, #f38989 0%, #6d0019 100%);
   background-image: linear-gradient(top, #f38989 0%, #6d0019 100%);
 }
-/* line 10, ../scss/layouts/_container.scss */
+/* line 10, ../scss/layouts/_main.scss */
 .under-header .theme h2 {
   font-size: 60px;
   text-align: left;
   color: #ffffff;
 }
-/* line 15, ../scss/layouts/_container.scss */
+/* line 15, ../scss/layouts/_main.scss */
 .under-header .theme p {
   font-size: 25px;
   line-height: 35px;
   color: #EE8888;
 }
 
-/* line 23, ../scss/layouts/_container.scss */
+/* line 23, ../scss/layouts/_main.scss */
 main .base-section {
   padding-top: 20px;
 }
-/* line 25, ../scss/layouts/_container.scss */
+/* line 25, ../scss/layouts/_main.scss */
 main .base-section h3 {
   font-style: italic;
   line-height: 35px;
 }
-/* line 29, ../scss/layouts/_container.scss */
+/* line 29, ../scss/layouts/_main.scss */
 main .base-section p {
   line-height: 22px;
 }
-/* line 33, ../scss/layouts/_container.scss */
+/* line 33, ../scss/layouts/_main.scss */
 main .table {
   margin-top: 40px;
   padding: 10px 2px;
