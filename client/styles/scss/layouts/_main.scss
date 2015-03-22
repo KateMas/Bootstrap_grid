@@ -1,37 +1,35 @@
-.under-header {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background: #F38989;
-	// needs latest Compass, add '@import "compass"' to your scss
-	background-color: rgb(243,137,137); // Old browsers
-	@include filter-gradient(#f38989, #6d0019, vertical); // IE6-9
-	@include background-image(linear-gradient(top,  rgba(243,137,137,1) 0%,rgba(109,0,25,1) 100%));
-	.theme {
-		h2 {
-			font-size: 60px;
-			text-align:left;
-			color: #ffffff;
-		}
-		p {
-			font-size: 25px;
-			line-height: 35px;
-			color:#EE8888; 
-		}
-	}	
-}
-main {
-	.base-section {
-		padding-top: 20px;
-		h3 {
-			font-style: italic;
-			line-height: 35px;
-		}
-		p {
-			line-height: 22px;
-		}
-	}	
-	.table {
-		margin-top: 40px;
-		padding: 10px 2px;
-	}	
-}	
+.homepage {
+	.under-header {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		@include background-image(linear-gradient(top,  rgba(243,137,137,1) 0%,rgba(109,0,25,1) 100%));
+		.theme {
+			h2 {
+				font-size: 60px;
+				text-align:left;
+				color: #ffffff;
+			}
+			p {
+				font-size: 25px;
+				line-height: 35px;
+				color:#EE8888; 
+			}
+		}		
+	}
+	main {
+		.base-section {
+			padding-top: 20px;
+			h3 {
+				font-style: italic;
+				line-height: 35px;
+			}
+			p {
+				line-height: 22px;
+			}
+		}	
+		.table {
+			margin-top: 40px;
+			padding: 10px 2px;
+		}	
+	}
+}		

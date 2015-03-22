@@ -1,37 +1,33 @@
 footer {
-	background: #F38989;
-	// needs latest Compass, add '@import "compass"' to your scss
-	background-color: rgb(243,137,137); // Old browsers
-	@include filter-gradient(#f38989, #6d0019, vertical); // IE6-9
 	@include background-image(linear-gradient(top,  rgba(243,137,137,1) 0%,rgba(109,0,25,1) 100%));
-	.col-md-4 {	
+	.copyright {	
 		p {
 			margin: 0;
 			font-size: 12px;
 			line-height: 40px;
 			color:#6C1E1E;
 		}
-		nav {
-			ul {
-				margin: 0;
-				font-size: 0;
-				line-height: 40px;
-				text-align:right;
-				li {
-					display: inline-block;
-					margin: 0 10px;
-					font-size: 12px;
-					&:last-child {
-						margin-right: 0;
-					}
-					a {
-						text-decoration: none;
-						color:#E79696;
-						@include transition-property(all);
-						@include transition-duration(400ms);
-						&:hover {
-							color: #ffffff;
-						}
+	}	
+	.info {
+		ul {
+			margin: 0;
+			font-size: 0;
+			line-height: 40px;
+			text-align:right;
+			li {
+				display: inline-block;
+				margin: 0 5px;
+				font-size: 12px;
+				&:last-child {
+					margin-right: 0;
+				}
+				a {
+					text-decoration: none;
+					color:#E79696;
+					@include transition-property(all);
+					@include transition-duration(400ms);
+					&:hover {
+						color: #ffffff;
 					}
 				}
 			}
