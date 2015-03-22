@@ -2,11 +2,12 @@
 @import "compass/reset";
 @import "compass/css3";
 @import "compass/utilities/general/clearfix";
-//@import "bootstrap";
+@import "bootstrap";
 
 //widgets
 @import "widgets/header";
 @import "widgets/footer";
+@import "widgets/aside";
 
 //layouts
 @import "layouts/container";
