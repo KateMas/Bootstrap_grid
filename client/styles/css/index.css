@@ -8632,39 +8632,23 @@ button.close {
     display: none !important;
   }
 }
-/* line 1, ../scss/widgets/_header.scss */
-header {
-  border-bottom: 1px solid #FFBFBF;
-}
-/* line 3, ../scss/widgets/_header.scss */
-header .col-md-1 {
-  line-height: 60px;
-}
-/* line 5, ../scss/widgets/_header.scss */
-header .col-md-1 img {
-  display: inline-block;
+/* line 2, ../scss/widgets/_header.scss */
+header .nav-color {
   margin: 0;
-  vertical-align: middle;
+  min-height: 50px;
+  background-color: #ffffff;
+  border: none;
 }
-/* line 13, ../scss/widgets/_header.scss */
-header .col-md-4 nav ul {
-  margin: 0;
-  font-size: 0;
-  line-height: 60px;
-  text-align: right;
+/* line 7, ../scss/widgets/_header.scss */
+header .nav-color .logo {
+  padding: 6px 15px;
 }
-/* line 18, ../scss/widgets/_header.scss */
-header .col-md-4 nav ul li {
-  display: inline-block;
-  margin: 0 5px;
-  font-size: 14px;
+/* line 10, ../scss/widgets/_header.scss */
+header .nav-color .list {
+  border: none;
 }
-/* line 22, ../scss/widgets/_header.scss */
-header .col-md-4 nav ul li:last-child {
-  margin-right: 0px;
-}
-/* line 25, ../scss/widgets/_header.scss */
-header .col-md-4 nav ul li a {
+/* line 14, ../scss/widgets/_header.scss */
+header .nav-color .list ul li a {
   text-decoration: none;
   color: #D65B5B;
   -webkit-transition-property: all;
@@ -8672,8 +8656,8 @@ header .col-md-4 nav ul li a {
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-/* line 30, ../scss/widgets/_header.scss */
-header .col-md-4 nav ul li a:hover {
+/* line 19, ../scss/widgets/_header.scss */
+header .nav-color .list ul li a:hover {
   color: #933434;
 }
 
@@ -8771,24 +8755,25 @@ aside nav ul a:hover {
 }
 /* line 12, ../scss/layouts/_main.scss */
 .homepage .under-header .theme p {
+  margin-right: 460px;
   font-size: 25px;
   line-height: 35px;
   color: #EE8888;
 }
-/* line 20, ../scss/layouts/_main.scss */
+/* line 21, ../scss/layouts/_main.scss */
 .homepage main .base-section {
   padding-top: 20px;
 }
-/* line 22, ../scss/layouts/_main.scss */
+/* line 23, ../scss/layouts/_main.scss */
 .homepage main .base-section h3 {
   font-style: italic;
   line-height: 35px;
 }
-/* line 26, ../scss/layouts/_main.scss */
+/* line 27, ../scss/layouts/_main.scss */
 .homepage main .base-section p {
   line-height: 22px;
 }
-/* line 30, ../scss/layouts/_main.scss */
+/* line 31, ../scss/layouts/_main.scss */
 .homepage main .table {
   margin-top: 40px;
   padding: 10px 2px;

@@ -1,27 +1,16 @@
 header {
-	border-bottom: 1px solid #FFBFBF;
-	.col-md-1 {
-		line-height: 60px;
-		img {
-			display: inline-block;
-			margin: 0;
-			vertical-align: middle;
-		}
-	}
-	.col-md-4 {
-		nav {
+	.nav-color {
+		margin: 0;
+		min-height: 50px;
+		background-color: #ffffff;
+		border:none;
+		.logo {
+			padding: 6px 15px;
+		} 
+		.list {
+			border:none;
 			ul {
-				margin: 0;
-				font-size: 0;
-				line-height: 60px;
-				text-align:right;
 				li {
-					display: inline-block;
-					margin:0 5px;
-					font-size: 14px;
-					&:last-child {
-						margin-right:0px;
-					}
 					a {
 						text-decoration: none;
 						color: #D65B5B;
@@ -29,8 +18,8 @@ header {
 						@include transition-duration(400ms);
 						&:hover {
 							color: #933434;
-						}
-					}	
+						}	
+					}
 				}
 			}
 		}
