@@ -8640,14 +8640,31 @@ header .nav-color {
   border: none;
 }
 /* line 7, ../scss/widgets/_header.scss */
+header .nav-color .but-style {
+  padding: 11px 10px;
+  border: none;
+}
+/* line 10, ../scss/widgets/_header.scss */
+header .nav-color .but-style:hover {
+  background-color: #ffffff;
+}
+/* line 13, ../scss/widgets/_header.scss */
+header .nav-color .but-style:focus {
+  background-color: #ffffff;
+}
+/* line 16, ../scss/widgets/_header.scss */
+header .nav-color .but-style .icon-color {
+  background-color: #EE8888;
+}
+/* line 20, ../scss/widgets/_header.scss */
 header .nav-color .logo {
   padding: 6px 15px;
 }
-/* line 10, ../scss/widgets/_header.scss */
+/* line 23, ../scss/widgets/_header.scss */
 header .nav-color .list {
   border: none;
 }
-/* line 14, ../scss/widgets/_header.scss */
+/* line 27, ../scss/widgets/_header.scss */
 header .nav-color .list ul li a {
   text-decoration: none;
   color: #D65B5B;
@@ -8656,9 +8673,13 @@ header .nav-color .list ul li a {
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-/* line 19, ../scss/widgets/_header.scss */
+/* line 32, ../scss/widgets/_header.scss */
 header .nav-color .list ul li a:hover {
   color: #933434;
+}
+/* line 35, ../scss/widgets/_header.scss */
+header .nav-color .list ul li a:focus {
+  color: #D65B5B;
 }
 
 /* line 1, ../scss/widgets/_footer.scss */

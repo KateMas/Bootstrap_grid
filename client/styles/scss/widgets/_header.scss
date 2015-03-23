@@ -4,6 +4,19 @@ header {
 		min-height: 50px;
 		background-color: #ffffff;
 		border:none;
+		.but-style {
+			padding: 11px 10px;
+			border:none;
+			&:hover {
+				background-color: #ffffff;
+			}
+			&:focus {
+				background-color:#ffffff;
+			}
+			.icon-color {
+				background-color: #EE8888;
+			}
+		}
 		.logo {
 			padding: 6px 15px;
 		} 
@@ -18,6 +31,9 @@ header {
 						@include transition-duration(400ms);
 						&:hover {
 							color: #933434;
+						}
+						&:focus {
+							color: #D65B5B;
 						}	
 					}
 				}
